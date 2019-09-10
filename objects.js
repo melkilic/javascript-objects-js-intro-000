@@ -4,7 +4,7 @@ function updatePlaylist(playlist, billieEilish, whenThePartyIsOver){
   playlist[billieEilish]= whenThePartyIsOver
   return playlist;
 }
-function removeFromPlaylist(playlist,lanaDelRey){
-  delete playlist.slowdive
+function removeFromPlaylist(playlist,billieEilish){
+  delete playlist[billieEilish]
   return playlist;
 }
