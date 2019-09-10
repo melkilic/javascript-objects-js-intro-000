@@ -5,6 +5,6 @@ function updatePlaylist(playlist, billieEilish, whenThePartyIsOver){
   return playlist;
 }
 function removeFromPlaylist(playlist,billieEilish){
-  delete playlist[billieEilish]
+  delete playlist.billieEilish;
   return playlist;
 }
